@@ -10,9 +10,14 @@ The "val" file is the main pattern, and the "vit" file contains my measurements 
 
 Open Seamly2D and edit the measurements. Take the measurements the pattern needs and enter ones to match you.  Latex is forgiving a little, but you must use your exact measurements, don't pull the tapemeasure tight or have it loose. The pattern is designed to reduce the measurements to ensure a nice tight fit.  I've seen friends get bad fitting made to measure latex because they assumed they needed to adjust the measurements to make things tight themselves.
 
+![Measurements](imgs/Screenshot_2020-08-24_16-50-26.png?raw=true)
+
 ## The variables
 
 As well as the measurements there are some things to tweak in the variables table, specifically for the forms you wish to use with the top. Open the variables table. The variables you need to adjust are described. You'll need measurements from the forms you wish to use. The rest shouldn't need editing unless the pattern looks wrong.
+
+![Measurements](./imgs/Screenshot_2020-08-24_16-50-09.png?raw=true)
+
 
 ## Eyeball the pattern
 
@@ -21,6 +26,8 @@ Go to the 'draw' section in Seamly2D.
 At this stage the pattern should adjust itself to your measurements. Take a look and compare it to mine to see if it looks vaugely correct. Some of the curves may have not worked right, and we'll deal with those next.
 
 Some of the pieces we join together have curves, and those curves are different on the two pieces, but the lengths of the curves have to be the same. Latex doesn't look good if you end up having one piece more stretched than another. Because we can't have this work automatically we have the concept of "pattern zeros". What we do is take away the difference between the length of the two curves of the pieces being joined and show a line with ten times the length. If your pattern is correct then all those pattern zeros will be either in the same position, or no more than 10mm (which is 1mm in reality) different from each other. If they are not, don't worry, we'll adjust them now.
+
+![Pattern](./imgs/Screenshot_2020-08-24_16-49-29.png?raw=true){width: 600px}
 
 ## Adjusting the curves
 
