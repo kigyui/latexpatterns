@@ -27,7 +27,7 @@ At this stage the pattern should adjust itself to your measurements. Take a look
 
 Some of the pieces we join together have curves, and those curves are different on the two pieces, but the lengths of the curves have to be the same. Latex doesn't look good if you end up having one piece more stretched than another. Because we can't have this work automatically we have the concept of "pattern zeros". What we do is take away the difference between the length of the two curves of the pieces being joined and show a line with ten times the length. If your pattern is correct then all those pattern zeros will be either in the same position, or no more than 10mm (which is 1mm in reality) different from each other. If they are not, don't worry, we'll adjust them now.
 
-![Pattern](./imgs/Screenshot_2020-08-24_16-49-29.png?raw=true){width: 600px}
+![Pattern](./imgs/Screenshot_2020-08-24_16-49-29-resized.png?raw=true)
 
 ## Adjusting the curves
 
