@@ -2,6 +2,8 @@
 
 This is my first time using Seamly2D for making my own pattern so it's a little rough.  My initial pattern was based on looking at some latex items that fit me well as well as some duct tape patterns for other pieces. I've tried to make everything in the pattern based on a formula so it can be altered to your size, but you do need to carefully look at it and do some adjustments of some lines.  I'll explain those steps here.
 
+First download the pattern and sample measurements from here https://github.com/kigyui/latexpatterns/blob/master/pockettop/breastpockettop_yui.val and https://github.com/kigyui/latexpatterns/blob/master/pockettop/breastpockettop_yui.vit
+
 ## Your measurements
 
 Take the measurements the pattern needs and enter them.  Latex is forgiving a little, but use your exact measurements, don't pull the tape measure tight or have it loose.  The pattern is designed to reduce the measurements to ensure a nice tight fit.
