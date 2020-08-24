@@ -53,4 +53,4 @@ It's also worth now labeling the pattern; the breast pocket parts need to be the
 
 Printing the pattern takes much longer than you expect, it's likely to be over an hour.
 
-Now on to part 3: transfer pattern and cut the latex (to come)
+Now on to part 3: transfer pattern and cut the latex: https://github.com/kigyui/latexpatterns/blob/master/pockettop/03-transfer.md
