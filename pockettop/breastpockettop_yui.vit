@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Seamly2D v0.6.0.1 (http://fashionfreedom.eu/).-->
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes>shoulder was 153 which is just too long, i'd try 148 next time.</notes>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name>yui</given-name>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="waist_circ" value="90"/>
+        <m name="arm_wrist_circ" value="16"/>
+        <m name="arm_lower_circ" value="26"/>
+        <m name="arm_upper_circ" value="35"/>
+        <m name="arm_shoulder_tip_to_wrist" value="65"/>
+        <m name="arm_shoulder_tip_to_elbow" value="33.5"/>
+        <m name="hip_circ" value="104"/>
+        <m name="neck_mid_circ" value="38"/>
+        <m name="neck_front_to_waist_flat_f" value="38"/>
+        <m name="shoulder_tip_to_shoulder_tip_b" value="38"/>
+        <m name="armpit_to_waist_side" value="23.5"/>
+        <m name="shoulder_length" value="14.8"/>
+        <m name="neck_back_to_waist_b" value="41"/>
+        <m name="across_back_b" value="40"/>
+        <m name="waist_to_hip_f" value="20.4"/>
+        <m description="Vertical distance from nipple to waist (not over forms)" full_name="Nipple to Waist vertical" name="@nippletowaist" value="18.6"/>
+        <m description="Circumference of the chest at nipple height, without forms" full_name="Chest at Nipple Height circumference" name="@ChestatNipple" value="104"/>
+        <m name="@nippletohip" value="39"/>
+    </body-measurements>
+</vit>
