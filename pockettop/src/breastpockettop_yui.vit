@@ -21,9 +21,9 @@
         <m name="arm_shoulder_tip_to_wrist" value="65"/>
         <m name="arm_shoulder_tip_to_elbow" value="33.5"/>
         <m name="hip_circ" value="104"/>
+        <m name="neck_circ" value="39"/>
         <m name="neck_mid_circ" value="38"/>
         <m name="neck_front_to_waist_flat_f" value="38"/>
-        <m name="shoulder_tip_to_shoulder_tip_b" value="38"/>
         <m name="armpit_to_waist_side" value="23.5"/>
         <m name="shoulder_length" value="14.8"/>
         <m name="neck_back_to_waist_b" value="41"/>

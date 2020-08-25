@@ -4,11 +4,11 @@
     <version>0.6.0</version>
     <unit>mm</unit>
     <description>A top with 3D breast and pocket for holding forms</description>
-    <notes></notes>
-    <patternName></patternName>
-    <patternNumber></patternNumber>
+    <notes/>
+    <patternName/>
+    <patternNumber/>
     <company>Yui</company>
-    <customer></customer>
+    <customer/>
     <patternLabel dateFormat="MM-dd-yyyy" timeFormat="hh:mm:ss"/>
     <measurements>breastpockettop_yui.vit</measurements>
     <increments>
@@ -20,8 +20,6 @@
         <increment description="" formula="91" name="#HeightOfCollarAtFront"/>
         <increment description="10% off for 4mm latex but only in the horizonal direction" formula="0.9" name="#HorizonalEase"/>
         <increment description="" formula="13" name="#FudgeDropNeck"/>
-        <increment description="" formula="23" name="#FudgeShoulderDrop"/>
-        <increment description="" formula="77" name="#FudgeHorizontaltoNeckEdge"/>
         <increment description="" formula="#ActualBreastFormOver * #HorizonalEase" name="#AdjustedOverBreastForms"/>
         <increment description="Diameter of the pocket (exact unstretched)&#10;&#10;We multiply by less than the horizonal ease as we do want them to get a little squished at the sides to create a more full cup" formula="#ActualBreastFormWidth*#HorizonalEase*1.02" name="#AdjustedCupDiameter"/>
         <increment description="" formula="(#AdjustedOverBreastForms/3.1415*2+#SeamAllowanceCup)/2" name="#ZCupHeightRadius"/>
@@ -86,15 +84,17 @@
             <point id="85" mx="-116.397" my="-31.125" name="BACK_ORIGIN" type="single" x="8.43175" y="493.319"/>
             <point angle="270" basePoint="85" id="86" length="33+neck_back_to_waist_b+waist_to_hip_f" lineColor="cornflowerblue" mx="0.638945" my="2.64583" name="BHIP" type="endLine" typeLine="dotLine"/>
             <point angle="90" basePoint="86" id="88" length="@nippletohip-@nippletowaist" lineColor="black" mx="1.20446" my="2.64583" name="BWAIST" type="endLine" typeLine="none"/>
-            <point angle="0" basePoint="85" id="90" length="shoulder_tip_to_shoulder_tip_b/2*#HorizonalEase" lineColor="cornflowerblue" mx="21.6617" my="-1.93039" name="BC" type="endLine" typeLine="dotLine"/>
-            <point angle="270" basePoint="90" id="91" length="60" lineColor="cornflowerblue" mx="-94.8099" my="-137.828" name="BC_GUIDE" type="endLine" typeLine="dotLine"/>
-            <point angle="270" basePoint="85" id="92" length="33" lineColor="cornflowerblue" mx="2.67385" my="1.90019" name="BD" type="endLine" typeLine="dotLine"/>
+            <point angle="270" basePoint="85" id="92" length="33" lineColor="cornflowerblue" mx="12.8786" my="16.8149" name="BD" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="92" id="93" length="90" lineColor="cornflowerblue" mx="206.13" my="61.4835" name="BD_GUIDE" type="endLine" typeLine="dotLine"/>
-            <point angle="0" basePoint="85" id="94" length="#FudgeHorizontaltoNeckEdge" lineColor="black" mx="1.32292" my="2.64583" name="BF" type="endLine" typeLine="none"/>
-            <point angle="270" basePoint="90" id="95" length="#FudgeShoulderDrop" lineColor="black" mx="1.32292" my="2.64583" name="BG" type="endLine" typeLine="none"/>
+            <point angle="0" basePoint="85" id="94" length="neck_circ/5" lineColor="black" mx="-20.2894" my="-19.2798" name="BF" type="endLine" typeLine="none"/>
+            <point angle="270" basePoint="85" id="95" length="1" lineColor="black" mx="-60.0691" my="4.21195" name="BG" type="endLine" typeLine="none"/>
+            <point angle="270" basePoint="85" id="570" length="(neck_back_to_waist_b-armpit_to_waist_side+Line_BACK_ORIGIN_BD)/5-10" lineColor="cornflowerblue" mx="-54.7439" my="12.9822" name="B5TH" type="endLine" typeLine="dotLine"/>
             <line firstPoint="94" id="96" lineColor="cornflowerblue" secondPoint="95" typeLine="dotLine"/>
-            <point angle="AngleLine_BF_BG" basePoint="94" id="97" length="shoulder_length*#HorizonalEase" lineColor="black" mx="78.5998" my="-41.8555" name="BSHOULDER" type="endLine" typeLine="hair"/>
-            <point angle="180" firstPoint="94" id="98" length="70" lineColor="cornflowerblue" mx="12.1459" my="-13.0967" name="BF_GUIDE" secondPoint="97" type="normal" typeLine="dotLine"/>
+            <point angle="0" basePoint="570" id="571" length="307.924" lineColor="cornflowerblue" mx="-1.49608" my="-22.7252" name="B5TH_G" type="endLine" typeLine="dotLine"/>
+            <arc angle1="320" angle2="360" center="94" color="cornflowerblue" id="572" penStyle="hair" radius="#HorizonalEase*shoulder_length" type="simple"/>
+            <point angle="180" basePoint="570" curve="572" id="573" lineColor="cornflowerblue" mx="16.0442" my="12.0425" name="BSHOULDERNEW" type="curveIntersectAxis" typeLine="dotLine"/>
+            <line firstPoint="94" id="576" lineColor="black" secondPoint="573" typeLine="hair"/>
+            <point angle="180" firstPoint="94" id="98" length="70" lineColor="black" mx="12.1459" my="-13.0967" name="BF_GUIDE" secondPoint="573" type="normal" typeLine="dotLine"/>
             <point angle="0" basePoint="88" id="99" length="Line_FWAIST_FSIDEWAIST" lineColor="cornflowerblue" mx="69.0998" my="-17.7948" name="BSIDEWAIST" type="endLine" typeLine="dotLine"/>
             <point angle="90" basePoint="88" id="101" length="Line_F_ORIGIN_FWAIST" lineColor="black" mx="11.5797" my="7.15629" name="BNIPPLE" type="endLine" typeLine="none"/>
             <point angle="0" basePoint="101" id="102" length="Line_F_ORIGIN_FSIDENIPPLE" lineColor="cornflowerblue" mx="18.0003" my="10.4516" name="BSIDENIPPLE" type="endLine" typeLine="dotLine"/>
@@ -109,11 +109,11 @@
             <line firstPoint="102" id="107" lineColor="black" secondPoint="105" typeLine="hair"/>
             <spline angle1="abs(0)" angle2="AngleLine_BF_BF_GUIDE" color="black" id="109" length1="Line_BACK_ORIGIN_BF*0.633" length2="Line_BACK_ORIGIN_BD*0.795" penStyle="hair" point1="92" point4="94" type="simpleInteractive"/>
             <point firstPoint="92" id="123" length="CurrentLength/4" lineColor="black" mx="1.32292" my="2.64583" name="BQUARTER" secondPoint="88" type="alongLine" typeLine="none"/>
-            <point angle="0" basePoint="123" id="124" length="across_back_b/2*#HorizonalEase" lineColor="cornflowerblue" mx="-93.657" my="102.748" name="BQUARTERARM" type="endLine" typeLine="dotLine"/>
+            <point angle="0" basePoint="123" id="124" length="across_back_b/2*#HorizonalEase" lineColor="cornflowerblue" mx="-106.673" my="8.49369" name="BQUARTERARM" type="endLine" typeLine="dotLine"/>
             <point angle="90" basePoint="124" id="125" length="33.6065" lineColor="cornflowerblue" mx="-74.0557" my="1.17359" name="BT_GUIDE1" type="endLine" typeLine="dotLine"/>
             <point angle="270" basePoint="124" id="126" length="38.0282" lineColor="cornflowerblue" mx="-88.4836" my="-5.5987" name="BT_GUIDE2" type="endLine" typeLine="dotLine"/>
             <spline color="black" id="127" penStyle="hair" type="pathInteractive">
-                <pathPoint angle1="76.9209" angle2="AngleLine_BF_BG-90" length1="0" length2="16.7755" pSpline="97"/>
+                <pathPoint angle1="76.2773" angle2="AngleLine_BF_BSHOULDERNEW-90" length1="0" length2="16.7755" pSpline="573"/>
                 <pathPoint angle1="91.0934" angle2="271.093" length1="79.0432" length2="51.7883" pSpline="124"/>
                 <pathPoint angle1="AngleLine_BSIDENIPPLE_BARMPIT+80" angle2="340.388" length1="54.599" length2="0" pSpline="105"/>
             </spline>
@@ -126,9 +126,9 @@
             <point angle="180" basePoint="177" id="179" length="Line_FA2_FSIDENIPPLE" lineColor="black" mx="25.6615" my="15.3222" name="TA2" type="endLine" typeLine="none"/>
             <point angle="0" basePoint="176" id="180" length="Line_F_ORIGIN_FA1" lineColor="cornflowerblue" mx="31.1375" my="-41.9698" name="TA1" type="endLine" typeLine="dotLine"/>
             <point firstPoint="180" id="181" length="CurrentLength/2" lineColor="black" mx="8.60658" my="21.4619" name="TA150" secondPoint="179" type="alongLine" typeLine="none"/>
-            <line firstPoint="105" id="182" lineColor="yellow" secondPoint="97" typeLine="dotLine"/>
-            <point angle="AngleLine_BARMPIT_BSHOULDER+8" basePoint="178" id="183" length="Line_BARMPIT_BSHOULDER*0.86" lineColor="yellow" mx="25.3639" my="2.64583" name="TSHOULDER" type="endLine" typeLine="none"/>
-            <point angle="AngleLine_BF_BSHOULDER+180" basePoint="183" id="184" length="Line_BF_BSHOULDER" lineColor="black" mx="1.32292" my="2.64583" name="TF" type="endLine" typeLine="hair"/>
+            <line firstPoint="105" id="182" lineColor="yellow" secondPoint="573" typeLine="dotLine"/>
+            <point angle="AngleLine_BARMPIT_BSHOULDERNEW+8" basePoint="178" id="183" length="Line_BARMPIT_BSHOULDERNEW*0.86" lineColor="yellow" mx="25.3639" my="2.64583" name="TSHOULDER" type="endLine" typeLine="none"/>
+            <point angle="AngleLine_BF_BSHOULDERNEW+180" basePoint="183" id="184" length="Line_BF_BSHOULDERNEW" lineColor="black" mx="1.32292" my="2.64583" name="TF" type="endLine" typeLine="hair"/>
             <point angle="180" basePoint="184" id="185" length="Line_BACK_ORIGIN_BF+5" lineColor="cornflowerblue" mx="0.435797" my="2.64583" name="TOP_ORIGIN" type="endLine" typeLine="dotLine"/>
             <line firstPoint="185" id="186" lineColor="cornflowerblue" secondPoint="176" typeLine="dotLine"/>
             <point firstPoint="176" id="187" length="neck_front_to_waist_flat_f-@nippletowaist" lineColor="black" mx="1.32292" my="2.64583" name="TD" secondPoint="185" type="alongLine" typeLine="none"/>
@@ -160,11 +160,11 @@
                 <pathPoint angle1="102.549" angle2="282.549" length1="66.7925" length2="72.4509" pSpline="218"/>
                 <pathPoint angle1="87.2879" angle2="267.288" length1="26.6918" length2="9.58421" pSpline="214"/>
             </spline>
-            <point angle="180" basePoint="216" id="224" length="(SplPath_BSHOULDER_BARMPIT-Spl_TSHOULDER_TARMPIT)*0.6" lineColor="cornflowerblue" mx="-55.9658" my="-27.8292" name="AS3" type="endLine" typeLine="dotLine"/>
+            <point angle="180" basePoint="216" id="224" length="(SplPath_BSHOULDERNEW_BARMPIT-Spl_TSHOULDER_TARMPIT)*0.6" lineColor="cornflowerblue" mx="-55.9658" my="-27.8292" name="AS3" type="endLine" typeLine="dotLine"/>
             <spline angle1="183.027" angle2="0.0203381" color="black" id="225" length1="58.5141" length2="74.7637" penStyle="hair" point1="224" point4="221" type="simpleInteractive"/>
             <spline angle1="2.28081" angle2="173.688" color="black" id="226" length1="69.0502" length2="100.776" penStyle="hair" point1="224" point4="222" type="simpleInteractive"/>
             <point angle="218.825" basePoint="220" id="227" length="10*abs(Spl_AS3_AU1-Spl_TSHOULDER_TARMPIT)" lineColor="deeppink" mx="-92.5318" my="47.7477" name="AU1_ZERO" type="endLine" typeLine="hair"/>
-            <point angle="315" basePoint="220" id="228" length="10*abs(Spl_AS3_AU2-SplPath_BSHOULDER_BARMPIT)" lineColor="deeppink" mx="47.4298" my="33.5584" name="AU2_ZERO" type="endLine" typeLine="hair"/>
+            <point angle="315" basePoint="220" id="228" length="10*abs(Spl_AS3_AU2-SplPath_BSHOULDERNEW_BARMPIT)" lineColor="deeppink" mx="47.4298" my="33.5584" name="AU2_ZERO" type="endLine" typeLine="hair"/>
             <operation axisType="1" center="213" id="238" suffix="a1" type="flippingByAxis">
                 <source>
                     <item idObject="223"/>
@@ -203,19 +203,19 @@
             <point id="296" length="Spl_TSHOULDER_TARMPIT*0.75" mx="15.4694" my="-15.1682" name="TU1_25" spline="189" type="cutSpline"/>
             <point id="297" length="Spl_TSHOULDER_TARMPIT*0.5" mx="23.8524" my="-13.0724" name="TU1_50" spline="189" type="cutSpline"/>
             <point id="298" length="Spl_TSHOULDER_TARMPIT*0.25" mx="21.7567" my="4.21766" name="TU1_75" spline="189" type="cutSpline"/>
-            <point id="299" length="SplPath_BSHOULDER_BARMPIT*0.75" mx="47.1204" my="-20.6283" name="BU2_75" splinePath="127" type="cutSplinePath"/>
-            <point id="300" length="SplPath_BSHOULDER_BARMPIT*0.5" mx="38.1111" my="-7.86508" name="BU2_50" splinePath="127" type="cutSplinePath"/>
-            <point id="301" length="SplPath_BSHOULDER_BARMPIT*0.25" mx="28.351" my="16.1599" name="BU2_25" splinePath="127" type="cutSplinePath"/>
-            <point firstPoint="94" id="302" length="CurrentLength/3" lineColor="black" mx="41.865" my="-53.6626" name="BF_33" secondPoint="97" type="alongLine" typeLine="none"/>
-            <point firstPoint="94" id="303" length="CurrentLength*2/3" lineColor="black" mx="38.8619" my="-42.4009" name="BF_66" secondPoint="97" type="alongLine" typeLine="none"/>
+            <point id="299" length="SplPath_BSHOULDERNEW_BARMPIT*0.75" mx="47.1204" my="-20.6283" name="BU2_75" splinePath="127" type="cutSplinePath"/>
+            <point id="300" length="SplPath_BSHOULDERNEW_BARMPIT*0.5" mx="134.926" my="0.508065" name="BU2_50" splinePath="127" type="cutSplinePath"/>
+            <point id="301" length="SplPath_BSHOULDERNEW_BARMPIT*0.25" mx="28.351" my="16.1599" name="BU2_25" splinePath="127" type="cutSplinePath"/>
+            <point firstPoint="94" id="302" length="CurrentLength/3" lineColor="black" mx="21.1923" my="-60.8667" name="BF_33" secondPoint="573" type="alongLine" typeLine="none"/>
+            <point firstPoint="94" id="303" length="CurrentLength*2/3" lineColor="black" mx="27.5859" my="-54.9298" name="BF_66" secondPoint="573" type="alongLine" typeLine="none"/>
             <point firstPoint="184" id="304" length="CurrentLength/3" lineColor="black" mx="5.82759" my="-26.6346" name="TF_33" secondPoint="183" type="alongLine" typeLine="none"/>
             <point firstPoint="184" id="305" length="CurrentLength*2/3" lineColor="black" mx="16.3385" my="-27.3853" name="TF_66" secondPoint="183" type="alongLine" typeLine="none"/>
             <point id="306" length="Spl_TD_TF/3" mx="-5.57615" my="28.3605" name="TN_33" spline="188" type="cutSpline"/>
             <point id="307" length="Spl_TD_TF*2/3" mx="10.7307" my="31.4965" name="TN_66" spline="188" type="cutSpline"/>
             <point id="308" length="Spl_NB_ND1/3" mx="-16.2383" my="45.9218" name="NF_33" spline="166" type="cutSpline"/>
             <point id="309" length="Spl_NB_ND1*2/3" mx="-26.2733" my="44.6674" name="NF_66" spline="166" type="cutSpline"/>
-            <point id="310" length="Spl_BD_BF/3" mx="-36.9355" my="-48.1564" name="BN_33" spline="109" type="cutSpline"/>
-            <point id="311" length="Spl_BD_BF*2/3" mx="-26.9005" my="-51.9195" name="BN_66" spline="109" type="cutSpline"/>
+            <point id="310" length="Spl_BD_BF/3" mx="-48.1869" my="-71.1825" name="BN_33" spline="109" type="cutSpline"/>
+            <point id="311" length="Spl_BD_BF*2/3" mx="-37.3669" my="-77.5623" name="BN_66" spline="109" type="cutSpline"/>
             <point id="312" length="SplPath_ND_ND1*2/3" mx="-11.2208" my="42.7859" name="NB_66" splinePath="165" type="cutSplinePath"/>
             <point id="313" length="SplPath_ND_ND1/3" mx="57.1426" my="35.8868" name="NB_33" splinePath="165" type="cutSplinePath"/>
             <point id="314" length="SplPath_FSIDENIPPLE_FSIDEHIP*0.1" mx="1.32292" my="2.64583" name="FS_10" splinePath="10" type="cutSplinePath"/>
@@ -346,7 +346,7 @@
             <point id="448" idObject="94" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
             <point id="449" idObject="302" inUse="true" mx="41.865" my="-53.6626" type="modeling"/>
             <point id="450" idObject="303" inUse="true" mx="38.8619" my="-42.4009" type="modeling"/>
-            <point id="451" idObject="97" inUse="true" mx="15.6617" my="-19.1565" type="modeling"/>
+            <point id="451" idObject="573" inUse="true" mx="15.6617" my="-19.1565" type="modeling"/>
             <spline id="452" idObject="127" inUse="true" type="modelingPath"/>
             <point id="453" idObject="301" inUse="true" mx="28.351" my="16.1599" type="modeling"/>
             <spline id="454" idObject="127" inUse="true" type="modelingPath"/>
