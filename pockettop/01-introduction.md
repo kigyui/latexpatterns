@@ -15,4 +15,16 @@ amazingly well. The only part that I'd say could be tweaked to be a little bette
 
 So if you fancy making one yourself or are just interested in my process, follow along! Note that although it may seem much cheaper to make one yourself, by the time you have invested in the sheeting, tools, proper glue and thinner, and not forgetting your time, you'll wonder how any of the latex clothing companies make any profits at all!
 
+Here's what I needed for making a top:
+
+* 0.4mm latex in black. I ended up using about 1.3m in length, although if you have a waist greater than around 36 inches you may need to move one of the pieces and it'll be more like 1.5 or 1.6m
+* 0.6mm latex in any colour.  You only need a small section for this, just the size of the breast pockets and strap. If you don't have any spare you can just use two bits of 0.4mm stuck together (see later)
+* The proper glue and thinner and all the accessories you'd usually use to make later (see later)
+
+And here's how long it took:
+
+* Final pattern tweaking, printing it, cutting it out: 2 hours
+* Transferring to latex, cutting it out: 2 hours
+* Latex assembly: 5 hours
+
 Now on to part 2, downloading and adjusting the pattern: https://github.com/kigyui/latexpatterns/blob/master/pockettop/02-pattern.md
