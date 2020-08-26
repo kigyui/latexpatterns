@@ -1,14 +1,14 @@
 # Part 2: Download and alter the pattern
 
-This is my first time using Seamly2D for making my own pattern so it's a little rough. My initial pattern was based on looking at some latex items that fit me well as well as some duct tape patterns for other pieces. I've tried to make everything in the pattern based on a formula so it can be altered to your size, but you do need to carefully look at it and do some adjustments of some lines. I'll explain those steps here.
+This is my first time using [Seamly2D](https://seamly.net/) for making my own pattern so it's a little rough. My initial pattern was based on looking at some latex items that fit me well as well as some duct tape patterns for other pieces. I've tried to make everything in the pattern based on a formula so it can be altered to your size, but you do need to carefully look at it and do some adjustments of some lines. I'll explain those steps here.
 
-First download the pattern and sample measurements from here https://github.com/kigyui/latexpatterns/blob/master/pockettop/src/breastpockettop_yui.val and https://github.com/kigyui/latexpatterns/blob/master/pockettop/src/breastpockettop_yui.vit
+First download the pattern and sample measurements from the files in the [src directory](https://github.com/kigyui/latexpatterns/blob/master/pockettop/src/)
 
 The "val" file is the main pattern, and the "vit" file contains my measurements (you'll alter these next).
 
 ## Your measurements
 
-Open Seamly2D and edit the measurements. Take the measurements the pattern needs and enter ones to match you.  Latex is forgiving a little, but you must use your exact measurements, don't pull the tapemeasure tight or have it loose. The pattern is designed to reduce the measurements to ensure a nice tight fit.  I've seen friends get bad fitting made to measure latex because they assumed they needed to adjust the measurements to make things tight themselves.
+Open Seamly2D open the "vat" file and edit the measurements. Take the measurements the pattern needs and enter ones to match you.  Latex is forgiving a little, but you must use your exact measurements, don't pull the tapemeasure tight or have it loose. The pattern is designed to reduce the measurements to ensure a nice tight fit.  I've seen friends get bad fitting made to measure latex because they assumed they needed to adjust the measurements to make things tight themselves.
 
 ![Measurements](imgs/Screenshot_2020-08-24_16-50-26.png?raw=true)
 
