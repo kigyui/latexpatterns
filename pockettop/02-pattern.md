@@ -31,7 +31,7 @@ Some of the pieces we join together have curves, and those curves are different 
 
 ## Adjusting the curves
 
-First let's sort the collar. We have to match the front neck curve (TD to TF) with the collar part (NB to ND1). Adjust the curve of the NB to ND1 until the ZERO_NB_ND1 line is close to zero. Anything under 10mm for that line is great. Now do the same with the back neck curve (BD to BF) matching ND1 to ND using the line ZERO_ND_ND1. If you can't get them anywhere close then you may have to adjust the neck in the pattern, you can change the variable #FudgeHorizontaltoNeckEdge to adjust the both front and back neck lengths, or the formula on TOP_ORIGIN to just affect the front.
+First let's sort the collar. We have to match the front neck curve (TD to TF) with the collar part (NB to ND1). Adjust the curve of the NB to ND1 until the ZERO_NB_ND1 line is close to zero. Anything under 10mm for that line is great. Now do the same with the back neck curve (BD to BF) matching ND1 to ND using the line ZERO_ND_ND1. If you can't get them anywhere close then you may have got a measurement wrong. Double check your vertical measurements. If it still is far out you may have to adjust the neck in the pattern, there are a few control points you can move manually. Or drop me an email and we can figure out how to fix the formula.
 
 Okay, next lets get the arm holes right. On the arm piece you can see AU1_ZERO and AU2_ZERO which are affected by the AU1 curve (front) and AU2 curve (back). If they are close you can just tweak the curves a little.  If they are far off make sure your arm_upper_circ measurement is correct, or adjust it (this affects the width at AU1). You could also try moving AU0 which is just a fixed length in my pattern.
 
