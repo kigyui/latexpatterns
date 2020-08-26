@@ -3,7 +3,7 @@
     <!--Measurements created with Seamly2D v0.6.0.1 (http://fashionfreedom.eu/).-->
     <version>0.3.3</version>
     <read-only>false</read-only>
-    <notes>shoulder was 153 which is just too long, i'd try 148 next time.</notes>
+    <notes>shoulder was 153 which is just too long, i'd try 148 next time.  Still a bit big, let's try 140 next time.</notes>
     <unit>cm</unit>
     <pm_system>998</pm_system>
     <personal>
@@ -25,7 +25,7 @@
         <m name="neck_mid_circ" value="38"/>
         <m name="neck_front_to_waist_flat_f" value="38"/>
         <m name="armpit_to_waist_side" value="23.5"/>
-        <m name="shoulder_length" value="14.8"/>
+        <m name="shoulder_length" value="14"/>
         <m name="neck_back_to_waist_b" value="41"/>
         <m name="across_back_b" value="40"/>
         <m name="waist_to_hip_f" value="20.4"/>

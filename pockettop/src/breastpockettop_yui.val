@@ -19,7 +19,6 @@
         <increment description="side needs less seam overlap" formula="7" name="#SeamAllowanceSide"/>
         <increment description="" formula="91" name="#HeightOfCollarAtFront"/>
         <increment description="10% off for 4mm latex but only in the horizonal direction" formula="0.9" name="#HorizonalEase"/>
-        <increment description="" formula="13" name="#FudgeDropNeck"/>
         <increment description="" formula="#ActualBreastFormOver * #HorizonalEase" name="#AdjustedOverBreastForms"/>
         <increment description="Diameter of the pocket (exact unstretched)&#10;&#10;We multiply by less than the horizonal ease as we do want them to get a little squished at the sides to create a more full cup" formula="#ActualBreastFormWidth*#HorizonalEase*1.02" name="#AdjustedCupDiameter"/>
         <increment description="" formula="(#AdjustedOverBreastForms/3.1415*2+#SeamAllowanceCup)/2" name="#ZCupHeightRadius"/>
@@ -67,24 +66,24 @@
             <point angle="0" basePoint="2" id="153" length="500" lineColor="black" mx="1.32292" my="2.64583" name="NA" type="endLine" typeLine="none"/>
             <point angle="270" basePoint="153" id="154" length="#HeightOfCollarAtFront" lineColor="black" mx="1.32292" my="2.64583" name="NB" type="endLine" typeLine="hair"/>
             <point angle="0" basePoint="153" id="155" length="neck_mid_circ*#HorizonalEase/2*0.98" lineColor="cornflowerblue" mx="-23.9185" my="2.40312" name="NA1" type="endLine" typeLine="dotLine"/>
-            <point angle="90" basePoint="155" id="156" length="#FudgeDropNeck+2" lineColor="cornflowerblue" mx="4.96351" my="-20.8967" name="NC" type="endLine" typeLine="dotLine"/>
+            <point angle="90" basePoint="155" id="156" length="15" lineColor="cornflowerblue" mx="4.96351" my="-20.8967" name="NC" type="endLine" typeLine="dotLine"/>
             <point firstPoint="153" id="157" length="#HeightOfCollarAtFront*0.77" lineColor="black" mx="3.02186" my="-16.2853" name="NA2" secondPoint="154" type="alongLine" typeLine="none"/>
             <point angle="0" basePoint="157" id="158" length="neck_mid_circ*#HorizonalEase/2*1.17" lineColor="cornflowerblue" mx="1.32292" my="2.64583" name="ND" type="endLine" typeLine="dotLine"/>
             <line firstPoint="156" id="159" lineColor="black" secondPoint="158" typeLine="hair"/>
             <spline angle1="abs(360)" angle2="AngleLine_NC_ND-90" color="black" id="160" length1="143.852" length2="17.1769" penStyle="hair" point1="153" point4="156" type="simpleInteractive"/>
             <point angle="180" basePoint="158" id="161" length="Line_NA2_ND*0.44" lineColor="black" mx="-19.5498" my="24.9748" name="ND1" type="endLine" typeLine="none"/>
             <point firstPoint="161" id="163" length="CurrentLength/2" lineColor="black" mx="100.455" my="-23.1878" name="ND3" secondPoint="158" type="alongLine" typeLine="none"/>
-            <point angle="270" basePoint="163" id="164" length="#FudgeDropNeck" lineColor="cornflowerblue" mx="1.95011" my="2.64583" name="ND4" type="endLine" typeLine="dotLine"/>
+            <point angle="270" basePoint="163" id="164" length="13" lineColor="cornflowerblue" mx="1.95011" my="2.64583" name="ND4" type="endLine" typeLine="dotLine"/>
             <spline color="black" id="165" penStyle="hair" type="pathInteractive">
                 <pathPoint angle1="30.8099" angle2="210.81" length1="0" length2="9.47964" pSpline="158"/>
                 <pathPoint angle1="0.173792" angle2="180.174" length1="13.2145" length2="11.6153" pSpline="164"/>
                 <pathPoint angle1="338.745" angle2="158.745" length1="15.0322" length2="0" pSpline="161"/>
             </spline>
-            <spline angle1="2.64905" angle2="157.49" color="black" id="166" length1="62.8141" length2="62.0789" penStyle="hair" point1="154" point4="161" type="simpleInteractive"/>
+            <spline angle1="2.64905" angle2="159.996" color="black" id="166" length1="62.8141" length2="80.4713" penStyle="hair" point1="154" point4="161" type="simpleInteractive"/>
             <point id="85" mx="-116.397" my="-31.125" name="BACK_ORIGIN" type="single" x="8.43175" y="493.319"/>
             <point angle="270" basePoint="85" id="86" length="33+neck_back_to_waist_b+waist_to_hip_f" lineColor="cornflowerblue" mx="0.638945" my="2.64583" name="BHIP" type="endLine" typeLine="dotLine"/>
             <point angle="90" basePoint="86" id="88" length="@nippletohip-@nippletowaist" lineColor="black" mx="1.20446" my="2.64583" name="BWAIST" type="endLine" typeLine="none"/>
-            <point angle="270" basePoint="85" id="92" length="33" lineColor="cornflowerblue" mx="12.8786" my="16.8149" name="BD" type="endLine" typeLine="dotLine"/>
+            <point angle="270" basePoint="85" id="92" length="33" lineColor="cornflowerblue" mx="24.4553" my="13.5992" name="BD" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="92" id="93" length="90" lineColor="cornflowerblue" mx="206.13" my="61.4835" name="BD_GUIDE" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="85" id="94" length="neck_circ/5" lineColor="black" mx="-20.2894" my="-19.2798" name="BF" type="endLine" typeLine="none"/>
             <point angle="270" basePoint="85" id="95" length="1" lineColor="black" mx="-60.0691" my="4.21195" name="BG" type="endLine" typeLine="none"/>
@@ -113,8 +112,8 @@
             <point angle="90" basePoint="124" id="125" length="33.6065" lineColor="cornflowerblue" mx="-74.0557" my="1.17359" name="BT_GUIDE1" type="endLine" typeLine="dotLine"/>
             <point angle="270" basePoint="124" id="126" length="38.0282" lineColor="cornflowerblue" mx="-88.4836" my="-5.5987" name="BT_GUIDE2" type="endLine" typeLine="dotLine"/>
             <spline color="black" id="127" penStyle="hair" type="pathInteractive">
-                <pathPoint angle1="76.2773" angle2="AngleLine_BF_BSHOULDERNEW-90" length1="0" length2="16.7755" pSpline="573"/>
-                <pathPoint angle1="91.0934" angle2="271.093" length1="79.0432" length2="51.7883" pSpline="124"/>
+                <pathPoint angle1="76.2773" angle2="AngleLine_BF_BSHOULDERNEW-90" length1="0" length2="9.80538" pSpline="573"/>
+                <pathPoint angle1="89.7455" angle2="269.745" length1="54.1104" length2="51.7883" pSpline="124"/>
                 <pathPoint angle1="AngleLine_BSIDENIPPLE_BARMPIT+80" angle2="340.388" length1="54.599" length2="0" pSpline="105"/>
             </spline>
             <point id="128" mx="31.86" my="-15.9097" name="BFD" p1Line1="94" p1Line2="92" p2Line1="98" p2Line2="93" type="lineIntersect"/>
@@ -148,11 +147,11 @@
             <point angle="0" basePoint="103" id="213" length="900" lineColor="black" mx="1.32292" my="2.64583" name="AR0" type="endLine" typeLine="none"/>
             <point angle="180" basePoint="213" id="214" length="(arm_wrist_circ*#HorizonalEase/2)+#SeamAllowanceSide/2" lineColor="black" mx="1.32292" my="2.64583" name="AWRIST0" type="endLine" typeLine="hair"/>
             <point angle="0" basePoint="213" id="215" length="Line_AR0_AWRIST0" lineColor="black" mx="1.32292" my="2.64583" name="AWRIST1" type="endLine" typeLine="hair"/>
-            <point angle="90" basePoint="213" id="216" length="arm_shoulder_tip_to_wrist" lineColor="cornflowerblue" mx="-31.504" my="52.9804" name="AS0" type="endLine" typeLine="dotLine"/>
+            <point angle="90" basePoint="213" id="216" length="arm_shoulder_tip_to_wrist" lineColor="cornflowerblue" mx="-31.0552" my="52.9804" name="AS0" type="endLine" typeLine="dotLine"/>
             <point angle="270" basePoint="216" id="217" length="arm_shoulder_tip_to_elbow" lineColor="black" mx="1.32292" my="2.64583" name="AE0" type="endLine" typeLine="none"/>
             <point angle="180" basePoint="217" id="218" length="arm_lower_circ/2*#HorizonalEase+#SeamAllowanceSide/2" lineColor="cornflowerblue" mx="1.32292" my="2.64583" name="AE1" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="217" id="219" length="Line_AE0_AE1" lineColor="cornflowerblue" mx="0.424565" my="2.64583" name="AE2" type="endLine" typeLine="dotLine"/>
-            <point angle="270" basePoint="216" id="220" length="123" lineColor="black" mx="12.7845" my="-26.6675" name="AU0" type="endLine" typeLine="none"/>
+            <point angle="270" basePoint="216" id="220" length="(SplPath_BSHOULDERNEW_BARMPIT+Spl_TSHOULDER_TARMPIT)/3*0.87" lineColor="black" mx="12.7845" my="-26.6675" name="AU0" type="endLine" typeLine="none"/>
             <point angle="180" basePoint="220" id="221" length="#SeamAllowanceSide/2+arm_upper_circ/2*#HorizonalEase" lineColor="cornflowerblue" mx="1.32292" my="2.64583" name="AU1" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="220" id="222" length="Line_AU0_AU1" lineColor="cornflowerblue" mx="1.32292" my="2.64583" name="AU2" type="endLine" typeLine="dotLine"/>
             <spline color="black" id="223" penStyle="hair" type="pathInteractive">
@@ -161,8 +160,8 @@
                 <pathPoint angle1="87.2879" angle2="267.288" length1="26.6918" length2="9.58421" pSpline="214"/>
             </spline>
             <point angle="180" basePoint="216" id="224" length="(SplPath_BSHOULDERNEW_BARMPIT-Spl_TSHOULDER_TARMPIT)*0.6" lineColor="cornflowerblue" mx="-55.9658" my="-27.8292" name="AS3" type="endLine" typeLine="dotLine"/>
-            <spline angle1="183.027" angle2="0.0203381" color="black" id="225" length1="58.5141" length2="74.7637" penStyle="hair" point1="224" point4="221" type="simpleInteractive"/>
-            <spline angle1="2.28081" angle2="173.688" color="black" id="226" length1="69.0502" length2="100.776" penStyle="hair" point1="224" point4="222" type="simpleInteractive"/>
+            <spline angle1="188.909" angle2="6.38358" color="black" id="225" length1="104.689" length2="67.6844" penStyle="hair" point1="224" point4="221" type="simpleInteractive"/>
+            <spline angle1="350.608" angle2="173.688" color="black" id="226" length1="100.336" length2="100.776" penStyle="hair" point1="224" point4="222" type="simpleInteractive"/>
             <point angle="218.825" basePoint="220" id="227" length="10*abs(Spl_AS3_AU1-Spl_TSHOULDER_TARMPIT)" lineColor="deeppink" mx="-92.5318" my="47.7477" name="AU1_ZERO" type="endLine" typeLine="hair"/>
             <point angle="315" basePoint="220" id="228" length="10*abs(Spl_AS3_AU2-SplPath_BSHOULDERNEW_BARMPIT)" lineColor="deeppink" mx="47.4298" my="33.5584" name="AU2_ZERO" type="endLine" typeLine="hair"/>
             <operation axisType="1" center="213" id="238" suffix="a1" type="flippingByAxis">
@@ -195,8 +194,8 @@
             <point arc="252" id="266" length="Line_POCKET_00_POCKET1*3.14*4/6" mx="1.32292" my="2.64583" name="POCKET_133" type="cutArc"/>
             <point arc="252" id="269" length="Line_POCKET_00_POCKET1*3.14" mx="1.32292" my="2.64583" name="POCKET_100" type="cutArc"/>
             <point id="290" length="Spl_AS3_AU1*0.75" mx="-32.3794" my="-30.1811" name="AU1_25" spline="225" type="cutSpline"/>
-            <point id="291" length="Spl_AS3_AU1*0.5" mx="-51.2001" my="-29.7434" name="AU1_50" spline="225" type="cutSpline"/>
-            <point id="292" length="Spl_AS3_AU1*0.25" mx="-55.1394" my="-28.4303" name="AU1_75" spline="225" type="cutSpline"/>
+            <point id="291" length="Spl_AS3_AU1*0.5" mx="-82.3205" my="-15.1205" name="AU1_50" spline="225" type="cutSpline"/>
+            <point id="292" length="Spl_AS3_AU1*0.25" mx="-76.1363" my="-20.5565" name="AU1_75" spline="225" type="cutSpline"/>
             <point id="293" length="Spl_AS3_AU2*0.25" mx="24.5206" my="-21.4272" name="AU2_25" spline="226" type="cutSpline"/>
             <point id="294" length="Spl_AS3_AU2*0.5" mx="2.1983" my="-27.5549" name="AU2_50" spline="226" type="cutSpline"/>
             <point id="295" length="Spl_AS3_AU2*0.75" mx="1.76061" my="-31.4942" name="AU2_75" spline="226" type="cutSpline"/>
@@ -263,6 +262,7 @@
             <point angle="225" basePoint="207" id="547" length="10*abs(SplPath_ND_ND1-Spl_BD_BF)" lineColor="violet" mx="-65.7862" my="27.1062" name="ZERO_ND1_ND" type="endLine" typeLine="hair"/>
             <point arc="252" id="548" length="Line_POCKET_00_POCKET1*3.14*0.66/2" mx="-73.6947" my="22.5034" name="POCKET_66" type="cutArc"/>
             <point arc="252" id="551" length="Line_POCKET_00_POCKET1*3.14*5/6" mx="1.32292" my="2.64583" name="POCKET_166" type="cutArc"/>
+            <point firstPoint="220" id="577" length="CurrentLength/2" lineColor="black" mx="1.77175" my="-23.8351" name="AU0AS0" secondPoint="216" type="alongLine" typeLine="none"/>
         </calculation>
         <modeling>
             <point id="353" idObject="1" inUse="true" mx="-74.1129" my="-61.4746" type="modeling"/>
