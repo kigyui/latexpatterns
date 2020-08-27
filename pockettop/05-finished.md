@@ -17,4 +17,11 @@ Yui's final tips:
 * Keep well ventilated. I use a large fan to pull the fumes away from the work area. 
 * Keep your glue pot closed at all times to stop the solvent evaporating and making your glue gloopy.  Don't be afraid to throw away gloopy glue and pour some new fresh glue, even if you've only got the last 10cm to stick
 
+And how to wear it:
+
+* You'll need plenty of dressing aid or talc on the arms, slip it onto both arms and over your head. The collar makes this bit harder than it would otherwise be. Make sure the halter strap is behind your head (although it is possible but a struggle to fix this later
+* Position the top and then insert the breast forms through the neck, letting them slip into place (the talc/aid helps here!). A little adjustment from the front and you're done.
+* Getting out is pretty much the reverse, push the forms up and out through the neck before removing the top
+* Or, just, add a back zip instead. I didn't find I needed one and a zipper is even harder to do by yourself.
+
 Did you make one? If you altered anything in the pattern or this guide please submit an issue or pull request here so we can alter the pattern for everyone. I'd also love to see anything you make from this guide.
