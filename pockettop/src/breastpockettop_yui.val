@@ -82,7 +82,7 @@
             <spline angle1="2.64905" angle2="159.996" color="black" id="166" length1="62.8141" length2="80.4713" penStyle="hair" point1="154" point4="161" type="simpleInteractive"/>
             <point id="85" mx="-116.397" my="-31.125" name="BACK_ORIGIN" type="single" x="8.43175" y="493.319"/>
             <point angle="270" basePoint="85" id="86" length="33+neck_back_to_waist_b+waist_to_hip_f" lineColor="cornflowerblue" mx="0.638945" my="2.64583" name="BHIP" type="endLine" typeLine="dotLine"/>
-            <point angle="90" basePoint="86" id="88" length="@nippletohip-@nippletowaist" lineColor="black" mx="1.20446" my="2.64583" name="BWAIST" type="endLine" typeLine="none"/>
+            <point angle="90" basePoint="86" id="88" length="waist_to_hip_f" lineColor="black" mx="1.20446" my="2.64583" name="BWAIST" type="endLine" typeLine="none"/>
             <point angle="270" basePoint="85" id="92" length="33" lineColor="cornflowerblue" mx="24.4553" my="13.5992" name="BD" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="92" id="93" length="90" lineColor="cornflowerblue" mx="206.13" my="61.4835" name="BD_GUIDE" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="85" id="94" length="neck_circ/5" lineColor="black" mx="-20.2894" my="-19.2798" name="BF" type="endLine" typeLine="none"/>

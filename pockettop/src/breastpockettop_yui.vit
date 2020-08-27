@@ -31,6 +31,5 @@
         <m name="waist_to_hip_f" value="20.4"/>
         <m description="Vertical distance from nipple to waist (not over forms)" full_name="Nipple to Waist vertical" name="@nippletowaist" value="18.6"/>
         <m description="Circumference of the chest at nipple height, without forms" full_name="Chest at Nipple Height circumference" name="@ChestatNipple" value="104"/>
-        <m name="@nippletohip" value="39"/>
     </body-measurements>
 </vit>
