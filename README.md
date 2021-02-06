@@ -5,3 +5,11 @@ A collection of patterns and construction notes on various latex items. Feel fre
 ## pockettop/
 
 A latex top designed to hold breast forms with a 3D chest
+
+## sock/
+
+A pattern for a latex sock
+
+## bhgleggings/
+
+A pattern for some leggings for holding in pads
