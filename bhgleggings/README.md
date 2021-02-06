@@ -20,4 +20,8 @@ For the prototype I only made the leggings extend to just above the knee (becaus
 
 I'm probably 70% happy with the design as it stands; it's better than anything else I've owned. I do feel we can make it even better though.
 
+![Back View before added zip](./imgs/back.png?raw=true)
+
+![Front View before added zip](./imgs/front.png?raw=true)
+
 ![Seamly](./imgs/seamly.png?raw=true)
