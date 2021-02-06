@@ -19,3 +19,5 @@ I used
 For the prototype I only made the leggings extend to just above the knee (because I ran out of black .4mm latex). A future prototype will include full legs too.
 
 I'm probably 70% happy with the design as it stands; it's better than anything else I've owned. I do feel we can make it even better though.
+
+![Seamly](./imgs/seamly.png?raw=true)
