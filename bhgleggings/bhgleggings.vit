@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Seamly2D v0.6.0.1 (http://fashionfreedom.eu/).-->
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name>yui</given-name>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="waist_circ" value="88"/>
+        <m name="leg_knee_circ" value="40"/>
+        <m name="hip_circ" value="98"/>
+        <m name="@ubend_at_hipline" value="47"/>
+    </body-measurements>
+</vit>
