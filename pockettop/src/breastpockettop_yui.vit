@@ -14,7 +14,7 @@
         <email/>
     </personal>
     <body-measurements>
-        <m name="waist_circ" value="90"/>
+        <m name="waist_circ" value="70"/>
         <m name="arm_wrist_circ" value="16"/>
         <m name="arm_lower_circ" value="26"/>
         <m name="arm_upper_circ" value="35"/>
