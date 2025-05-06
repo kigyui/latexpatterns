@@ -22,6 +22,7 @@ outer layer:
 * front right leg part, two of these, flip and do two more for front left leg
 * back centre piece one of these normal, one fipped
 * back leg piece one of these normal, one flipped
+* waist band sections. I made four of these and laminated them so the band was a total of 1mm thick.
 
 inner layer:
 * eight segments of butt cups (4 per butt cup)

@@ -1,5 +1,8 @@
 # Construction (Inner)
 
+I decided to have the shiny side of the latex of the outer layer facing outwards, and the matt side of the latex of the inner layer facing inwards, but
+it's not visible so not really important. And I messed up and my front panel is actually reversed. That's fine no one will know.
+
 <img src="imgs/20250426_091031.jpg" height="500">
 <img src="imgs/20250426_094154.jpg" height="500">
 <img src="imgs/20250426_095623.jpg" height="500">
