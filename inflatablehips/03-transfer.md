@@ -41,4 +41,4 @@ cup of tea. At this point I usually just end up putting it all in a
 bag ready to assemble on another day as cutting the latex is time
 consuming.
 
-Now on to part 4: construction: https://github.com/kigyui/latexpatterns/blob/master/inflatablehips/04-construction.md
+Now on to part 4: construction: https://github.com/kigyui/latexpatterns/blob/master/inflatablehips/04a-construction-inner.md
