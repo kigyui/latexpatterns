@@ -18,13 +18,17 @@ with both sides so I didn't forget.
 Some pieces you need to cut out twice because we have an inner and an outer
 layer. So you should have:
 
-* a circle, we need two of these, for the back of the butt cups
+outer layer:
 * front right leg part, two of these, flip and do two more for front left leg
+* back centre piece one of these normal, one fipped
+* back leg piece one of these normal, one flipped
+
+inner layer:
+* eight segments of butt cups (4 per butt cup)
+* a circle, we need two of these, for the back of the butt cups
 * front piece that was flipped on the centre line, one of these
-* back centre piece (outer layer), one of these normal, one fipped
-* back centre piece (inner layer) with the partial circle cut out, one of these normal, one flipped
-* back leg piece (outer layer) one of these normal, one flipped
-* back leg piece (inner layer) with the partial circle cut out, one of these normal, one flipped
+* back centre piece with the partial circle cut out, one of these normal, one flipped
+* back leg piece with the partial circle cut out, one of these normal, one flipped
 
 <img src="imgs/20250425_161105.jpg" height="500">
 
