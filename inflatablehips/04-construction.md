@@ -22,4 +22,4 @@
 <img src="imgs/20250429_183147.jpg" height="500">
 <img src="imgs/20250429_215715.jpg" height="500">
 
-Now on to part 5: finished: https://github.com/kigyui/latexpatterns/blob/master/inflatablehips/04-finished.md
+Now on to part 5: finished: https://github.com/kigyui/latexpatterns/blob/master/inflatablehips/05-finished.md
