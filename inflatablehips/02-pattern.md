@@ -1,6 +1,6 @@
 # Part 2: Download and alter the pattern
 
-We'll be using [Seamly2D](https://seamly.net/) for altering the
+We'll be using [Seamly2D](https://github.com/FashionFreedom/Seamly2D) for altering the
 pattern. I've tried to make everything in the pattern based on a
 formula so it can be altered to your size, but you do need to
 carefully look at it and do some adjustments of some lines. I'll
