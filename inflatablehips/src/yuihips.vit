@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Seamly2D v0.6.0.1 (http://fashionfreedom.eu/).-->
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes>Yui measurements for inflatable hip pads, padded</notes>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name>Yui</given-name>
+        <birth-date>1800-01-01</birth-date>
+        <gender>female</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="waist_circ" value="88"/>
+        <m name="highhip_circ" value="97"/>
+        <m name="hip_circ" value="112"/>
+        <m name="crotch_length" value="76"/>
+        <m name="waist_to_hip_f" value="20"/>
+        <m name="leg_thigh_upper_circ" value="62"/>
+        <m full_name="Leg: Lower Thigh" name="@leg_thigh_lower_circ" value="41"/>
+        <m description="vertical distance between hip and upper thigh measurement" full_name="leg: hip to upper thigh" name="@leg_hip_to_upper_thigh" value="11"/>
+        <m description="vertical distance between upper thigh and mid thigh measurement" full_name="leg: upper thigh to mid thigh" name="@leg_upper_thigh_to_mid_thigh" value="13"/>
+        <m description="vertical distance between mid thigh  to lower thigh measurement" full_name="leg: mid thigh to lower thigh" name="@leg_mid_thigh_to_lower_thigh" value="15"/>
+        <m description="vertical distance between lower thigh and knee measurement" full_name="leg: lower thigh to knee" name="@leg_lower_thigh_to_knee" value="6.5"/>
+        <m description="vertical distance between knee measurement and ankle measurement" full_name="leg: knee to ankle" name="@leg_knee_to_ankle" value="46"/>
+        <m name="leg_thigh_mid_circ" value="53"/>
+        <m name="leg_knee_circ" value="38"/>
+        <m name="leg_crotch_to_ankle" value="81"/>
+        <m name="leg_ankle_circ" value="22"/>
+    </body-measurements>
+</vit>
