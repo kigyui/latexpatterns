@@ -23,7 +23,15 @@ friends get bad fitting made to measure latex because they assumed
 they needed to adjust the measurements to make things tight
 themselves.
 
-<img src="imgs/Screenshot_2025-05-07_10-38-07.png" height="500">
+<img src="imgs/Screenshot_2025-05-07_10-38-07.png" height="350">
+
+Since we're making shorts that will inflate to give hips we want the
+measurements to include the final hip size, near enough, so if you
+have existing foam or silicone hips use these as they'll affect your
+hip and upper thigh measurements. Each measurement in Seamly has a little
+description and some have diagrams to help figure out where the measurement
+is taken. Our pattern includes all the leg down to the ankle at the moment
+even though we cut off just above the knee.
 
 ## Eyeball the pattern
 
@@ -36,6 +44,15 @@ measurements. Take a look and compare it to mine to see if it looks
 vaugely correct. Some of the curves may have not worked right, and
 we'll deal with those next.
 
+Make sure the butt pad circle (in red) fit just within the pattern
+piece. If not you can adjust the radius in the Variables table. You
+could also adjust the "thickness" of the butt pad in the Variables
+table. I just made a guess default and it seemed ok.
+
+Adjust the curve from G0 down the leg, and G0B down the leg so that it roughly
+aligns with the points A19 and G12R. Since this is inflatable it's not important
+to be accurate, see my example above where we're close but not exact.
+
 Some of the pieces we join together have curves, and those curves are
 different on the two pieces, but the lengths of the curves have to be
 the same. Latex doesn't look good if you end up having one piece more
@@ -47,20 +64,33 @@ correct then all those pattern zeros will be either in the same
 position, or no more than 10mm (which is 1mm in reality) different
 from each other. If they are not, don't worry, we'll adjust them now.
 
-Picture TBD
-
 ## Adjusting the curves
 
-TBD
+So if the line G12Move exists we need to adjust the angle of G12 until
+it's nearly zero length. Click on G12 and adjust the angle in 0.1 degree
+increments and watch until G12Move line reduces. Then do the same with
+G14 angle until G14Move goes mostly away.
+
+Next look at Z32 and Y32. They should both be about the same distance from
+the red circle as each other (on mine they touch it, but they don't need to
+touch it). Adjust the curve GXADJ-G3 and GXADJ-G12 so they're similar.  We
+have to join those two curves later and they need to be the same length.
+
+We don't care about anything below the line of L20K-L20AK and R20K to R20AK.
 
 ## Print the pattern and cut it out
 
 Okay, that's our pattern done and ready to print.
 
+<img src="imgs/Screenshot_2025-05-07_10-52-42.png" height="350">
+
 Go to the 'Details' section in Seamly2D. You can export this now as a
 SVG file. I imported it to Inkscape, drew a grid over it for
 alignment, then poster printed it onto separate sheets, cutting and
 sticking them together.
+
+You can ignore the square around the circle, it's just because I couldn't get
+Seamly to include the circle properly on it's own.
 
 ## Label the pattern
 
