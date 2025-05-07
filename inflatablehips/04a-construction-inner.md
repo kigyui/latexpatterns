@@ -11,11 +11,11 @@ So let's make the inner shorts. Start by assembling the inflatable butt cups by 
 
 You'll end up with something that looks like this. Make two of them. Pay attention to the middle join where you have 4 overlapping pieces as this
 is the place where you're most likely to have air leaks. I added extra glue here and really made sure it was rolled well. You can also add a small
-circle over the top (it's not visible) to help with this.
+circle of latex over the top (it's not visible in the final shorts) to help with this.
 
 <img src="imgs/20250426_094154.jpg" height="500">
 
-Next attach the two rear panels that have the circle cut out, again make both the left and right
+Next attach the two parts of rear panels that have the circle cut out, again make both the left and right
 
 <img src="imgs/20250426_095623.jpg" height="500">
 
@@ -57,7 +57,7 @@ Let's join the back pieces together too
 
 <img src="imgs/20250426_153848.jpg" height="500">
 
-Next join the front and back pieces at the crotch and down the inside legs, so the sides are still open
+Next join the front and back pieces at the crotch and down the inside legs, so the sides are still open.
 
 <img src="imgs/20250426_155602.jpg" height="500">
 
@@ -65,7 +65,7 @@ Then join the sides to each other
 
 <img src="imgs/20250426_162900.jpg" height="500">
 
-I added in the valves for the two hip sections
+Add in the valves for the two hip sections. They don't do anything yet until we have the outer layer.
 
 <img src="imgs/20250427_143554.jpg" height="500">
 
