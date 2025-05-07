@@ -76,6 +76,11 @@ the red circle as each other (on mine they touch it, but they don't need to
 touch it). Adjust the curve GXADJ-G3 and GXADJ-G12 so they're similar.  We
 have to join those two curves later and they need to be the same length.
 
+This is what happened when I didn't pay attention to this the first time.
+These two bits should have been the same length. Oops.
+
+<img src="imgs/20250425_193221.jpg" height="500">
+
 We don't care about anything below the line of L20K-L20AK and R20K to R20AK.
 
 ## Print the pattern and cut it out

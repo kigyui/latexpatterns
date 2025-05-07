@@ -2,11 +2,6 @@
 
 So now you have a paper pattern cut out and ready to transfer to latex.
 
-<img src="imgs/20250425_193221.jpg" height="500">
-
-Danger, look at this, these parts should match in distance and don't. Explain what
-happened and how to fix this here.
-
 <img src="imgs/20250425_132502.jpg" height="500">
 
 You now need to transfer that onto the latex sheet, being careful not
