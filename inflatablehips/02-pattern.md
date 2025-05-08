@@ -1,5 +1,8 @@
 # Part 2: Download and alter the pattern
 
+In theory we could make a few standard measurement patterns in PDF for download, like a "small" "medium" "large" kind of thing,
+but really these are better made to measure.
+
 We'll be using [Seamly2D](https://github.com/FashionFreedom/Seamly2D) for altering the
 pattern. I've tried to make everything in the pattern based on a
 formula so it can be altered to your size, but you do need to
