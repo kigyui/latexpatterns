@@ -17,7 +17,8 @@ outer layer:
 * front right leg part, two of these, flip and do two more for front left leg
 * back centre piece one of these normal, one fipped
 * back leg piece one of these normal, one flipped
-* waist band sections. I made four of these and laminated them so the band was a total of 1mm thick.
+* waist band sections. I made four of these and laminated them so the band was a total of 1mm thick. These are not in the pattern but
+really could be. Just remember to cut some 60mm by your reduced waist length strips.
 
 inner layer:
 * eight segments of butt cups (4 per butt cup)
@@ -31,6 +32,9 @@ inner layer:
 Do make sure that you label the pieces and transfer the registration
 marks. Note the butt cups have one side different to the other two
 (and that is the "bottom") so make sure to label that.
+
+It's always good to mark the matt side of the latex too because it's easy to not
+pay attention and end up putting a panel in the wrong way around (foreshadowing?)
 
 Now you have a pile of latex ready to assemble. Relax and have a nice
 cup of tea. At this point I usually just end up putting it all in a

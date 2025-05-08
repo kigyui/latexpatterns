@@ -1,6 +1,7 @@
 # Construction (Outer)
 
-Let's not procastinate and get the outer layer done. It's cut out and prepared.
+Let's not procastinate and get the outer layer done. It's cut out and prepared. I actually did it the next day. With lots of gaps
+between each section where I questioned why I was making them. Don't give up! You got this far!
 
 <img src="imgs/20250427_132719.jpg" height="500">
 
@@ -13,7 +14,7 @@ across the crotch, up the front panel, and across the top band. Around the crotc
 the outside layer. Note that you're not attaching the outside hips of the inner or outer layer, and not attaching the inside legs of the inner and
 outer layer together.
 
-TBD This might need an annotated picture
+This really might need an annotated picture. Ask me for one if it's really confusing.
 
 <img src="imgs/20250428_090110.jpg" height="500">
 
