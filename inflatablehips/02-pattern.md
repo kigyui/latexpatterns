@@ -17,7 +17,7 @@ The "val" file is the main pattern, and the "vit" file contains my measurements 
 
 ## Your measurements
 
-Open Seamly2D open the "vat" file and edit the measurements. Take the
+Open Seamly2D open the main pattern and go to the menu to edit the "My measurements". Take the
 measurements the pattern needs and enter ones to match you.  Latex is
 forgiving a little, but you must use your exact measurements, don't
 pull the tapemeasure tight or have it loose. The pattern is designed
