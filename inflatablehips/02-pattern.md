@@ -110,8 +110,6 @@ alignment marks, it'll help transfer them to the pattern. I use this
 device which creates nice alignment notches:
 https://www.amazon.co.uk/Professional-Garment-Pattern-Stainless-Designer/dp/B07FKQNMWM/
 
-The pattern is missing a waistband, it's just a rectangle.
-
 This step always takes much longer than you expect.
 
 Now on to part 3: transfer pattern and cut the latex: https://github.com/kigyui/latexpatterns/blob/master/inflatablehips/03-transfer.md

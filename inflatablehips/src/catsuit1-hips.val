@@ -11,10 +11,10 @@
         <increment description="narrowest circumference, about 6cm above belly button&#10;" formula="waist_circ*#latexreduction" name="#reducedwaist"/>
         <increment description="from front of waist to back of waist around crotch (tight)" formula="crotch_length" name="#waisttowaistatside"/>
         <increment description="the boney part at side of body &#10;foam hips 970" formula="highhip_circ*#latexreduction" name="#reducedupperhip"/>
-        <increment description="note waist to upper hip is about half of this&#10;was 200" formula="waist_to_hip_f" name="#waisttohip"/>
+        <increment description="note waist to upper hip is about half of this&#10;measured at 200mm" formula="height*0.106" name="#waisttohip"/>
         <increment description="around existing foam hips 1120" formula="hip_circ*#latexreduction" name="#reducedhip"/>
         <increment description="" formula="@leg_hip_to_upper_thigh" name="#leghiptoupperthigh"/>
-        <increment description="very top of thigh at crotch level foam hip 620" formula="leg_thigh_upper_circ*#latexreduction" name="#reducedupperthigh"/>
+        <increment description="very top of thigh at crotch level foam hip 620" formula="(leg_thigh_upper_circ)*#latexreduction" name="#reducedupperthigh"/>
         <increment description="" formula="@leg_upper_thigh_to_mid_thigh" name="#legupperthightomidthigh"/>
         <increment description="foam hip 530" formula="leg_thigh_mid_circ*#latexreduction" name="#reducedmidthigh"/>
         <increment description="" formula="@leg_mid_thigh_to_lower_thigh" name="#legmidthightolowerthigh"/>
@@ -22,12 +22,12 @@
         <increment description="" formula="@leg_lower_thigh_to_knee" name="#leglowerthightoknee"/>
         <increment description="" formula="leg_knee_circ*#latexreduction" name="#reducedknee"/>
         <increment description="" formula="@leg_knee_to_ankle" name="#legkneetoankle"/>
-        <increment description="" formula="leg_ankle_circ*#latexreduction" name="#reducedankle"/>
-        <increment description="measure straight from perineum to ankle&#10;" formula="leg_crotch_to_ankle" name="#insideleglength"/>
+        <increment description="" formula="0.116*height*#latexreduction" name="#reducedankle"/>
         <increment description="old shoulder thing that won't go away" formula="1" name="#AUTO_CALCULATIONS_BELOW"/>
         <increment description="doesn't need to be accurate as we don't bother to use this bit of the pattern" formula="#legkneetoankle/3" name="#calculated_legkneetomidcalf"/>
         <increment description="not really calculated but this is a good width" formula="50" name="#calculated_gusset"/>
         <increment description="" formula="#leghiptoupperthigh+#legupperthightomidthigh+#legmidthightolowerthigh+#leglowerthightoknee+#legkneetoankle" name="#calculated_outsideleglength"/>
+        <increment description="measure straight from perineum to ankle&#10;" formula="#calculated_outsideleglength-#leghiptoupperthigh+5" name="#insideleglength"/>
         <increment description="it's just to make a large circle. we can adjust it if the circle is too big etc&#10;" formula="#reducedhip/8-16" name="#calculated_buttcircleradius"/>
         <increment description="it's like a radius for the semisphere for how much the butt pocket can stick out&#10;let's just randomly base it on the cicle but feel free to alter this" formula="#reducedhip/8/2-4.5" name="#calculated_buttcupheight"/>
         <increment description="" formula="((#calculated_buttcircleradius*#calculated_buttcircleradius+#calculated_buttcupheight*#calculated_buttcupheight))/ (#calculated_buttcupheight*2)" name="#calculated_buttfullradius"/>
@@ -63,7 +63,7 @@
             <point angle="90" basePoint="31" id="32" length="1" lineColor="cornflowerblue" mx="3.75377" my="-16.4418" name="A31" type="endLine" typeLine="dotLine"/>
             <arc angle1="300" angle2="360" center="32" color="yellow" id="35" penStyle="dashDotDotLine" radius="#AUTO_CALCULATIONS_BELOW" type="simple"/>
             <arc angle1="180" angle2="270" center="29" color="yellow" id="39" penStyle="dashDotLine" radius="#AUTO_CALCULATIONS_BELOW" type="simple"/>
-            <point angle="90" basePoint="1" id="57" length="100.186" lineColor="black" mx="-46.793" my="-20.9146" name="ZERO" type="endLine" typeLine="none"/>
+            <point angle="90" basePoint="1" id="57" length="150.186" lineColor="black" mx="-46.793" my="-20.9146" name="ZERO" type="endLine" typeLine="none"/>
             <line firstPoint="19" id="59" lineColor="cornflowerblue" secondPoint="20" typeLine="dotLine"/>
             <line firstPoint="19" id="60" lineColor="cornflowerblue" secondPoint="21" typeLine="dotLine"/>
             <point firstPoint="3" id="63" length="CurrentLength/2" lineColor="black" mx="-37.8574" my="10.1136" name="L5" secondPoint="19" type="alongLine" typeLine="none"/>
@@ -101,7 +101,7 @@
             <line firstPoint="94" id="95" lineColor="violet" secondPoint="89" typeLine="dotLine"/>
             <point firstPoint="94" id="96" length="CurrentLength/2" lineColor="black" mx="-53.6838" my="17.0665" name="G8" secondPoint="89" type="alongLine" typeLine="none"/>
             <point angle="0" firstPoint="96" id="97" length="320" lineColor="green" mx="23.2972" my="-11.113" name="GB" secondPoint="94" type="normal" typeLine="dotLine"/>
-            <point angle="98.225" basePoint="86" id="98" length="#insideleglength" lineColor="lightsalmon" mx="-62.3558" my="-12.555" name="G12" type="endLine" typeLine="hair"/>
+            <point angle="98.1" basePoint="86" id="98" length="#insideleglength" lineColor="lightsalmon" mx="-62.3558" my="-12.555" name="G12" type="endLine" typeLine="hair"/>
             <point angle="0" basePoint="74" id="99" length="Line_L13_L19" lineColor="violet" mx="-53.2738" my="26.5795" name="L19A" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="75" id="100" length="Line_L14_L20" lineColor="violet" mx="1.32292" my="2.64583" name="L20A" type="endLine" typeLine="dotLine"/>
             <point angle="0" basePoint="76" id="101" length="Line_L15_L21" lineColor="violet" mx="1.32292" my="2.64583" name="L21A" type="endLine" typeLine="dotLine"/>
@@ -207,7 +207,7 @@
             <point id="260" length="150" mx="1.98416" my="-26.6843" name="YZ37" spline="151" type="cutSpline"/>
             <point id="261" length="50" mx="-18.5507" my="-46.7374" name="Y38" spline="153" type="cutSpline"/>
             <point id="262" length="50" mx="-27.7865" my="10.3372" name="Z38" spline="152" type="cutSpline"/>
-            <point angle="0" basePoint="98" id="534" length="#reducedupperthigh/2" lineColor="black" mx="-30.5327" my="15.5189" name="G12R" type="endLine" typeLine="dashDotDotLine"/>
+            <point angle="0" basePoint="98" id="534" length="#reducedupperthigh/2" lineColor="black" mx="-29.6878" my="15.5189" name="G12R" type="endLine" typeLine="dashDotDotLine"/>
             <point angle="180" basePoint="146" id="535" length="#reducedupperthigh/2" lineColor="black" mx="27.994" my="16.3408" name="G14R" type="endLine" typeLine="dashDotDotLine"/>
             <point angle="90" basePoint="57" id="537" length="abs(Spl_GYAD_G14-Spl_GYAD_G6)*100" lineColor="deeppink" mx="1.80742" my="-16.5979" name="G14MOVE" type="endLine" typeLine="hair"/>
             <point angle="200" basePoint="57" id="538" length="abs(Spl_GXADJ_G12-Spl_GXADJ_G3)*100" lineColor="black" mx="-53.1392" my="1.70507" name="G12MOVE" type="endLine" typeLine="hair"/>
@@ -252,6 +252,11 @@
             <point arc="676" id="728" length="Arc_CI0_676/4*3" mx="8.24936" my="43.4882" name="CI1D" type="cutArc"/>
             <line firstPoint="91" id="731" lineColor="black" secondPoint="22" typeLine="hair"/>
             <line firstPoint="150" id="732" lineColor="black" secondPoint="23" typeLine="hair"/>
+            <point angle="89.6007" basePoint="1" id="735" length="128.796" lineColor="black" mx="1.32292" my="2.64583" name="WB0" type="endLine" typeLine="none"/>
+            <point angle="0" basePoint="735" id="736" length="#reducedwaist/2" lineColor="black" mx="1.32292" my="2.64583" name="WB1" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="736" id="737" length="52" lineColor="black" mx="1.32292" my="2.64583" name="WB2" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="735" id="738" length="52" lineColor="black" mx="1.32292" my="2.64583" name="WB3" type="endLine" typeLine="hair"/>
+            <line firstPoint="738" id="739" lineColor="black" secondPoint="737" typeLine="hair"/>
         </calculation>
         <modeling>
             <point id="577" idObject="150" inUse="true" mx="6.46907" my="55.2908" type="modeling"/>
@@ -364,6 +369,10 @@
             <point id="700" idObject="681" inUse="true" mx="37.3689" my="-31.5241" type="modeling"/>
             <spline id="701" idObject="691" inUse="true" type="modelingSpline"/>
             <point id="734" idObject="91" inUse="true" mx="-65.9647" my="22.9524" type="modeling"/>
+            <point id="740" idObject="735" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
+            <point id="741" idObject="736" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
+            <point id="742" idObject="737" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
+            <point id="743" idObject="738" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
         </modeling>
         <details>
             <detail forbidFlipping="true" hideMainPath="false" id="603" inLayout="true" mx="-45.4673" my="-32.2822" name="FR" seamAllowance="true" united="false" version="2" width="4">
@@ -525,6 +534,19 @@
                     <node idObject="699" reverse="1" type="NodeSpline"/>
                     <node idObject="700" passmark="true" passmarkAngle="straightforward" passmarkLine="one" type="NodePoint"/>
                     <node idObject="701" reverse="1" type="NodeSpline"/>
+                </nodes>
+            </detail>
+            <detail forbidFlipping="true" hideMainPath="false" id="744" inLayout="true" mx="-306.433" my="-44.4822" name="Detail" seamAllowance="true" united="false" version="2" width="4">
+                <data annotation="" foldPosition="" fontSize="0" height="30" letter="" mx="363.659" my="-397.563" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="200">
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="waist band double (cut 4)"/>
+                </data>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node after="0" idObject="740" type="NodePoint"/>
+                    <node before="0" idObject="741" type="NodePoint"/>
+                    <node after="CurrentSeamAllowance*2" idObject="742" type="NodePoint"/>
+                    <node before="CurrentSeamAllowance*2" idObject="743" type="NodePoint"/>
                 </nodes>
             </detail>
         </details>

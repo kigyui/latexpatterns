@@ -14,11 +14,11 @@
         <email/>
     </personal>
     <body-measurements>
+        <m name="height" value="189"/>
         <m name="waist_circ" value="88"/>
         <m name="highhip_circ" value="97"/>
         <m name="hip_circ" value="112"/>
         <m name="crotch_length" value="76"/>
-        <m name="waist_to_hip_f" value="20"/>
         <m name="leg_thigh_upper_circ" value="62"/>
         <m full_name="Leg: Lower Thigh" name="@leg_thigh_lower_circ" value="41"/>
         <m description="vertical distance between hip and upper thigh measurement" full_name="leg: hip to upper thigh" name="@leg_hip_to_upper_thigh" value="11"/>
@@ -28,7 +28,5 @@
         <m description="vertical distance between knee measurement and ankle measurement" full_name="leg: knee to ankle" name="@leg_knee_to_ankle" value="46"/>
         <m name="leg_thigh_mid_circ" value="53"/>
         <m name="leg_knee_circ" value="38"/>
-        <m name="leg_crotch_to_ankle" value="81"/>
-        <m name="leg_ankle_circ" value="22"/>
     </body-measurements>
 </vit>
