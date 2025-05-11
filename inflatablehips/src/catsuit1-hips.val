@@ -208,14 +208,14 @@
             <point id="261" length="50" mx="-18.5507" my="-46.7374" name="Y38" spline="153" type="cutSpline"/>
             <point id="262" length="50" mx="-27.7865" my="10.3372" name="Z38" spline="152" type="cutSpline"/>
             <point angle="0" basePoint="98" id="534" length="#reducedupperthigh/2" lineColor="black" mx="-29.6878" my="15.5189" name="G12R" type="endLine" typeLine="dashDotDotLine"/>
-            <point angle="180" basePoint="146" id="535" length="#reducedupperthigh/2" lineColor="black" mx="27.994" my="16.3408" name="G14R" type="endLine" typeLine="dashDotDotLine"/>
+            <point angle="180" basePoint="146" id="535" length="#reducedupperthigh/2" lineColor="black" mx="24.1074" my="48.7294" name="G14R" type="endLine" typeLine="dashDotDotLine"/>
             <point angle="90" basePoint="57" id="537" length="abs(Spl_GYAD_G14-Spl_GYAD_G6)*100" lineColor="deeppink" mx="1.80742" my="-16.5979" name="G14MOVE" type="endLine" typeLine="hair"/>
             <point angle="200" basePoint="57" id="538" length="abs(Spl_GXADJ_G12-Spl_GXADJ_G3)*100" lineColor="black" mx="-53.1392" my="1.70507" name="G12MOVE" type="endLine" typeLine="hair"/>
-            <point id="543" length="45" mx="-92.3482" my="15.3969" name="L20K" splinePath="145" type="cutSplinePath"/>
-            <point id="544" length="45" mx="1.32292" my="2.64583" name="L20AK" splinePath="155" type="cutSplinePath"/>
+            <point id="543" length="#leglowerthightoknee-20" mx="-92.3482" my="15.3969" name="L20K" splinePath="145" type="cutSplinePath"/>
+            <point id="544" length="#leglowerthightoknee-20" mx="1.32292" my="2.64583" name="L20AK" splinePath="155" type="cutSplinePath"/>
             <spline angle1="13.0715" angle2="165.399" color="black" id="545" length1="13.8602" length2="11.8963" penStyle="hair" point1="543" point4="544" type="simpleInteractive"/>
-            <point id="546" length="45" mx="30.8208" my="-10.874" name="R20K" splinePath="157" type="cutSplinePath"/>
-            <point id="547" length="45" mx="22.0781" my="0.710966" name="R20AK" splinePath="148" type="cutSplinePath"/>
+            <point id="546" length="#leglowerthightoknee-20" mx="30.8208" my="-10.874" name="R20K" splinePath="157" type="cutSplinePath"/>
+            <point id="547" length="#leglowerthightoknee-20" mx="22.0781" my="0.710966" name="R20AK" splinePath="148" type="cutSplinePath"/>
             <spline angle1="10.7658" angle2="172.196" color="black" id="548" length1="20.1266" length2="27.6872" penStyle="hair" point1="546" point4="547" type="simpleInteractive"/>
             <point angle="270" basePoint="65" id="664" length="#waisttohip+#calculated_buttcircleradius-86" lineColor="black" mx="17.6987" my="3.26895" name="CI0" type="endLine" typeLine="dotLine"/>
             <arc angle1="0" angle2="360" center="664" color="deeppink" id="665" penStyle="hair" radius="#calculated_buttcircleradius" type="simple"/>
@@ -352,12 +352,12 @@
                     <node idObject="669" reverse="0" type="NodeArc"/>
                 </nodes>
             </path>
-            <point id="671" idObject="11" inUse="true" mx="3.48001" my="0.571072" type="modeling"/>
-            <point id="672" idObject="20" inUse="true" mx="-27.5839" my="0.0319918" type="modeling"/>
-            <point id="673" idObject="535" inUse="true" mx="-49.1671" my="-31.1626" type="modeling"/>
-            <point id="674" idObject="92" inUse="true" mx="3.76446" my="-24.0366" type="modeling"/>
+            <point id="671" idObject="11" inUse="false" mx="3.48001" my="0.571072" type="modeling"/>
+            <point id="672" idObject="20" inUse="false" mx="-27.5839" my="0.0319918" type="modeling"/>
+            <point id="673" idObject="535" inUse="false" mx="-49.1671" my="-31.1626" type="modeling"/>
+            <point id="674" idObject="92" inUse="false" mx="3.76446" my="-24.0366" type="modeling"/>
             <arc id="677" idObject="676" inUse="true" type="modeling"/>
-            <path cut="false" id="678" inUse="true" name="Unnamed path" type="2" typeLine="hair">
+            <path cut="false" id="678" inUse="false" name="Unnamed path" type="2" typeLine="hair">
                 <nodes>
                     <node idObject="677" reverse="0" type="NodeArc"/>
                 </nodes>
@@ -373,6 +373,16 @@
             <point id="741" idObject="736" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
             <point id="742" idObject="737" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
             <point id="743" idObject="738" inUse="true" mx="1.32292" my="2.64583" type="modeling"/>
+            <point id="745" idObject="722" inUse="false" mx="-7.04697" my="-38.494" type="modeling"/>
+            <arc id="746" idObject="676" inUse="false" type="modeling"/>
+            <point id="747" idObject="722" inUse="true" mx="-7.04697" my="-38.494" type="modeling"/>
+            <arc id="748" idObject="676" inUse="true" type="modeling"/>
+            <point id="749" idObject="719" inUse="true" mx="-55.1553" my="37.1876" type="modeling"/>
+            <arc id="750" idObject="676" inUse="true" type="modeling"/>
+            <point id="751" idObject="728" inUse="true" mx="8.24936" my="43.4882" type="modeling"/>
+            <arc id="752" idObject="676" inUse="true" type="modeling"/>
+            <point id="753" idObject="725" inUse="true" mx="-41.669" my="4.31774" type="modeling"/>
+            <arc id="754" idObject="676" inUse="true" type="modeling"/>
         </modeling>
         <details>
             <detail forbidFlipping="true" hideMainPath="false" id="603" inLayout="true" mx="-45.4673" my="-32.2822" name="FR" seamAllowance="true" united="false" version="2" width="4">
@@ -505,22 +515,6 @@
                     <record path="668"/>
                 </iPaths>
             </detail>
-            <detail forbidFlipping="true" hideMainPath="true" id="675" inLayout="true" mx="-332.477" my="242.237" name="circle" seamAllowance="true" united="false" version="2" width="0.25">
-                <data annotation="" foldPosition="" fontSize="44" height="33.4602" letter="" mx="207.582" my="1484.93" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="135.491">
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="cut 2 only circle"/>
-                </data>
-                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
-                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
-                <nodes>
-                    <node idObject="671" type="NodePoint"/>
-                    <node idObject="672" type="NodePoint"/>
-                    <node idObject="673" type="NodePoint"/>
-                    <node idObject="674" type="NodePoint"/>
-                </nodes>
-                <iPaths>
-                    <record path="678"/>
-                </iPaths>
-            </detail>
             <detail forbidFlipping="true" hideMainPath="false" id="702" inLayout="true" mx="290.659" my="-255.676" name="boobcup" seamAllowance="true" united="false" version="2" width="4">
                 <data annotation="" foldPosition="" fontSize="34" height="12.4062" letter="" mx="-1935.97" my="1439.98" onFold="false" orientation="" quantity="4" rotation="0" rotationWay="" tilt="" visible="true" width="44.0564">
                     <line alignment="0" bold="false" italic="false" sfIncrement="0" text="cut 8"/>
@@ -547,6 +541,23 @@
                     <node before="0" idObject="741" type="NodePoint"/>
                     <node after="CurrentSeamAllowance*2" idObject="742" type="NodePoint"/>
                     <node before="CurrentSeamAllowance*2" idObject="743" type="NodePoint"/>
+                </nodes>
+            </detail>
+            <detail forbidFlipping="false" hideMainPath="false" id="755" inLayout="true" mx="-338.058" my="245.15" name="Detail" seamAllowance="false" united="false" version="2" width="0.25">
+                <data annotation="" foldPosition="" fontSize="111" height="39.6678" letter="" mx="248.447" my="866.199" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="93.7541">
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="cut 2"/>
+                </data>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="747" type="NodePoint"/>
+                    <node idObject="748" reverse="1" type="NodeArc"/>
+                    <node idObject="749" type="NodePoint"/>
+                    <node idObject="750" reverse="1" type="NodeArc"/>
+                    <node excluded="true" idObject="751" type="NodePoint"/>
+                    <node idObject="752" reverse="1" type="NodeArc"/>
+                    <node idObject="753" type="NodePoint"/>
+                    <node idObject="754" reverse="1" type="NodeArc"/>
                 </nodes>
             </detail>
         </details>

@@ -97,9 +97,6 @@ SVG file. I imported it to Inkscape, drew a grid over it for
 alignment, then poster printed it onto separate sheets, cutting and
 sticking them together.
 
-You can ignore the lines A10-A19-G1-G14R around the circle, it's just because I couldn't get
-Seamly to include the circle properly on it's own.
-
 ## Label the pattern
 
 It's also worth now labeling the pattern; the butt pad parts need to
